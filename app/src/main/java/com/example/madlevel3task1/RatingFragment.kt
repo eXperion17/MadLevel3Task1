@@ -36,11 +36,12 @@ class RatingFragment : Fragment() {
         args.putFloat(ARG_GAME_RATING, rb_gameScore.rating);
         args.putString(ARG_GAME_NAME, tv_gameTitle.text.toString());
 
-        findNavController().navigate(R.id.action_ratingFragment_to_summaryFragment);
+        findNavController().navigate(R.id.action_ratingFragment_to_summaryFragment, args);
     }
 
     private fun showRandomAssessableGame() {
-        val randomGame = listOf("one", "two", "three").random();
+        val randomGame = listOf("Red Dead Redemption 2", "Rocket League",
+            "Shadow of the Tombraider").random();
 
         tv_gameTitle.text = randomGame;
     }
