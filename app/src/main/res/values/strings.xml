@@ -14,4 +14,9 @@
     <string name="welcome_info">Click START to start rating :)</string>
     <string name="welcome_start_button">START</string>
 
+    <string name="rating_title">Rate the following game from 1 to 5 stars!</string>
+    <string name="rating_to_summary">To Summary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
